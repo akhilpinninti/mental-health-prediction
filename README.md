@@ -27,16 +27,27 @@ Features: 27
 Target Variable: treatment (Whether the respondent sought mental health treatment)
 
 Column Name	Description	Type
+
 Age	Age of respondent	Numeric
+
 Gender	Gender identity	Categorical
+
 Country	Country of residence	Categorical
+
 self_employed	Employment type	Binary
+
 family_history	Family history of mental illness	Binary
+
 treatment	Sought mental health treatment (Target)	Binary
+
 work_interfere	Work interference due to mental issues	Ordinal
+
 no_employees	Company size	Categorical
+
 remote_work	Works remotely	Binary
+
 benefits	Availability of mental health benefits	Binary
+
 🔄 Data Science Workflow
 
 Problem Definition – Understanding the goal and success metrics.
@@ -53,10 +64,15 @@ Insights & Visualization – Communicating findings with graphs and metrics.
 
 🧩 Machine Learning Models Used
 Model	Accuracy	F1-Score
+
 Logistic Regression	82%	0.76
+
 Decision Tree	80%	0.73
+
 Random Forest	85%	0.78
+
 SVM (Support Vector Machine)	83%	0.75
+
 
 ✅ Best Model: Random Forest Classifier
 ✅ Top Influential Factors:
